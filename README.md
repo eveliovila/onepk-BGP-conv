@@ -23,7 +23,7 @@ The script will listen for a change on the peer status and will start a timer.
 The timer will stop once converged has been achieved and the diff
 is graphed for every neighbor.
 
-In real work scenarios, the tblversion would increase constantly so the scripts
+In real world scenarios, the tblversion would increase constantly so the scripts
 accepts an option to only verify condition ii.
 
 
