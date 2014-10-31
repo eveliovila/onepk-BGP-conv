@@ -35,3 +35,9 @@ having an event history.
 It can also be used only to raise an alert if convergence has not been achieved
 with a specific neighbor after an specified amount of time.
 
+# Requirements
+
+This script uses the VTY service set from the onepk Cisco API.
+
+
+
