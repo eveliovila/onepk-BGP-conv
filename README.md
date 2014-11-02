@@ -14,8 +14,8 @@ Basically the script uses a simple logic to verify the peer convergence
 status. it assumes that a peer has converged if and only if the following
 two conditions are met:
 
-    i-  the BGP table version should be equal to the main routing table version
-        (TblVer == RTv) and:
+    i-  the BGP table version should be equal to the peer table version
+        (TblVer == BGPTblV) and:
     ii- Both InQ and OutQ are == 0
 
 
